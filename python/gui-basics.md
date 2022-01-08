@@ -1,17 +1,30 @@
+<div class="cell code" data-execution_count="9">
 
-``` {.python}
+``` python
 from tkinter import *
 ```
 
-``` {.python}
+</div>
+
+<div class="cell code">
+
+``` python
 window = Tk()
 window.title("Program loop")
 window.mainloop()
 ```
 
+</div>
+
+<div class="cell markdown">
+
 ## Buttons
 
-``` {.python}
+</div>
+
+<div class="cell code" data-execution_count="15">
+
+``` python
 def changeColor():
     if btnCalculate["fg"] == "blue":
         btnCalculate["fg"] = "red"
@@ -19,7 +32,11 @@ def changeColor():
         btnCalculate["fg"] = "blue"
 ```
 
-``` {.python}
+</div>
+
+<div class="cell code" data-execution_count="17">
+
+``` python
 window = Tk()
 window.title("Button")
 btnCalculate = Button(window, text="calculate", bg ="light blue",command=changeColor)
@@ -27,15 +44,28 @@ btnCalculate.grid(padx=75, pady=15)
 window.mainloop()
 ```
 
-``` {.python}
+</div>
+
+<div class="cell code" data-execution_count="18">
+
+``` python
 window = Tk()
 Principal = Label(window, text="Principal: ")
 Principal.grid(padx = 100, pady=15)
 window.mainloop()
 ```
 
+</div>
 
-``` {.python}
+<div class="cell markdown">
+
+## Entry Widgets
+
+</div>
+
+<div class="cell code" data-execution_count="19">
+
+``` python
 window = Tk()
 window.title("Entry widget")
 entName = Entry(window, width=20)
@@ -43,7 +73,11 @@ entName.grid(padx=100,pady=15)
 window.mainloop()
 ```
 
-``` {.python}
+</div>
+
+<div class="cell code">
+
+``` python
 def convertToUpperCase():
     conOfentName.set(conOfentName.get().upper)
 
@@ -56,7 +90,11 @@ print(conOfentName)
 window.mainloop()
 ```
 
-``` {.python}
+</div>
+
+<div class="cell code" data-execution_count="26">
+
+``` python
 window=Tk()
 window.title("Read Only Entry Widget")
 conOFentOutput = StringVar()
@@ -66,9 +104,17 @@ conOFentOutput.set("HELLO WORLD!")
 window.mainloop()
 ```
 
+</div>
+
+<div class="cell markdown">
+
 ## List Box
 
-``` {.python}
+</div>
+
+<div class="cell code" data-execution_count="30">
+
+``` python
 def changeBg(event):
     lstColors["bg"] = lstColors.get(lstColors.curselection())
 
@@ -83,12 +129,22 @@ lstColors.bind("<<ListboxSelect>>", changeBg)
 window.mainloop()
 ```
 
+</div>
+
+<div class="cell markdown">
+
 ## Scroll Bars
 
-``` {.python}
+</div>
+
+<div class="cell code" data-execution_count="31">
+
+``` python
 window = Tk()
 window.title("Scrollbar")
 yscroll = Scrollbar(window, orient=VERTICAL)
 yscroll.grid(padx=110,pady=15)
 window.mainloop()
 ```
+
+</div>
