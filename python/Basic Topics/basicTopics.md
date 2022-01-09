@@ -173,13 +173,7 @@ print("the population of {0:s} is {1:.2%} of the US population".format("Texas", 
 
 <div class="cell code" data-execution_count="60">
 
-```python
-# string methods
-# run code snippet to display image
-%matplotlib inline
-from IPython.display import Image
-Image('stringMethods.png')
-```
+![StringMehods](stringMethods.png)
 
 <div class="output execute_result" data-execution_count="60">
 
