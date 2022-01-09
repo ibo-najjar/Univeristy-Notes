@@ -38,12 +38,7 @@ print(L)
 
 </div>
 
-<div class="cell markdown">
 
-output: `['earth', 'air', 'fire', 'water']` `water` `['air', 'earth']`
-`elements after shuffle: ['water', 'earth', 'air', 'fire']`
-
-</div>
 
 <div class="cell code" data-execution_count="19">
 
