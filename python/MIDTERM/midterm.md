@@ -1,1 +1,1 @@
-![midterm](MidtermSolutions.pdf "solutions")
+[midterm](MidtermSolutions.pdf)
