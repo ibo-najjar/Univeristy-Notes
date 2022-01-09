@@ -1,4 +1,5 @@
 <div class="cell code" data-execution_count="6">
+
 ![exceptions](assets/exceptions.png)
 
 <div class="output execute_result" data-execution_count="6">
