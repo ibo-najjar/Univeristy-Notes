@@ -1,11 +1,5 @@
 <div class="cell code" data-execution_count="6">
-
-``` python
-# run code snippet to display image
-%matplotlib inline
-from IPython.display import Image
-Image('assets/exceptions.png')
-```
+![exceptions](assets/exceptions.png)
 
 <div class="output execute_result" data-execution_count="6">
 
