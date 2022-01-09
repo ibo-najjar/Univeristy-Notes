@@ -1,3 +1,2 @@
-
-[midterm](MidtermSolutions.pdf)
-
+QUESTIONS:
+* [midterm](MidtermSolutions.pdf)
