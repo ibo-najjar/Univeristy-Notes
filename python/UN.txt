@@ -1,0 +1,6 @@
+Canada,North America,34.8,3855000
+France,Europe,55,1242341
+New Zealand,Australia/Oceania,21,132423
+Nigera,Africa,1312,3425
+Pakistan, Asia, 129, 4089237
+Peru, South America, 231.1,2134
